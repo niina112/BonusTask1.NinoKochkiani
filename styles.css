@@ -1,0 +1,665 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.big-container {
+    width: 100%;
+    height: auto;
+    background: #FFF;
+    position: absolute;
+    z-index: 5;
+}
+
+.logo {
+    width: 15rem;
+    height: 2.375rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1 {
+    border-radius: 1.25rem;
+    border: 1px solid #FF52C1;
+    background: #FFF;
+    box-shadow: 0px 0px 9px 0px rgba(255, 82, 193, 0.22);
+    width: 8.5rem;
+    height: 2.5rem;
+    margin-right: 5rem;
+    color: #FF52C1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.title1 {
+    color: #FF52C1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.container2 {
+    width: 63.5625rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10.44rem;
+    align-items: center;
+    margin-left: 13.25rem;
+
+}
+
+.title2 {
+    color: #00252E;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.6rem;
+}
+
+.title3 {
+    width: 37.5rem;
+    color: rgba(0, 37, 46, 1);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    padding-bottom: 3rem;
+
+}
+
+.button23 {
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #FF52C1;
+    align-items: center;
+    background-color: #FF52C1;
+    filter: drop-shadow(0px 6px 13px rgba(0, 37, 46, 0.22));
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+.title4 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+.group {
+    margin-top: 7rem;
+    margin-left: 17rem;
+}
+
+.group1 {
+    width: 55rem;
+    height: 37.5rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 37, 46, 0.18);
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90rem;
+    height: 344.875rem;
+    background: #FFF;
+    margin-top: 7rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    margin-bottom: 0;
+}
+
+.number1 {
+    width: 90rem;
+    height: 20px;
+}
+
+.number2 {
+    width: 90rem;
+    height: 20px;
+}
+
+.group3 {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.k {
+    color: #00252E;
+    font-family: "Open Sans", sans-serif;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.txt5 {
+    color: #808E9A;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem;
+}
+
+.container3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.backpic {
+    width: 100%;
+    height: 50rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.grow1 {
+    position: absolute;
+    z-index: 2;
+    padding-left: 48rem;
+    padding-top: 14rem;
+}
+
+.txt6 {
+    position: absolute;
+    z-index: 3;
+    color: #00252E;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    padding-top: 22rem;
+    padding-left: 8rem;
+}
+
+.txt7 {
+    position: absolute;
+    z-index: 4;
+    width: 32.5rem;
+    color: rgba(0, 37, 46, 1);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 27rem;
+    padding-left: 8rem;
+}
+
+.container4 {
+    display: flex;
+}
+
+.beside {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow2 {
+    width: 33.1875rem;
+    height: 23.625rem;
+    margin-left: 8rem;
+}
+
+.txt8 {
+    color: #00252E;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    padding-left: 8rem;
+}
+
+.txt9 {
+    width: 41.5rem;
+    color: #00252E;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 8rem;
+    padding-top: 1.62rem;
+}
+
+.container5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.backpic2 {
+    position: absolute;
+    z-index: 1;
+    padding-top: 6rem;
+    width: 100%;
+    height: 50.173rem;
+}
+
+.grow3 {
+    position: absolute;
+    z-index: 2;
+    padding-left: 54rem;
+    padding-top: 19rem;
+}
+
+.txt10 {
+    position: absolute;
+    z-index: 3;
+    padding-top: 26rem;
+    padding-left: 7rem;
+    color: #00252E;
+    font-family: "";
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.txt11 {
+    position: absolute;
+    z-index: 4;
+    padding-top: 32rem;
+    padding-left: 7rem;
+    width: 39.5rem;
+    color: #00252E;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 57rem;
+    flex-direction: column;
+}
+
+.txt12 {
+    color: #00252E;
+    font-family:"Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    padding-bottom: 2.63rem;
+}
+
+.button2 {
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF52C1;
+    border: 1px solid #FF52C1;
+    filter: drop-shadow(0px 6px 13px rgba(0, 37, 46, 0.22));
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.backpic22 {
+    width: 100%;
+    height: auto;
+    margin-top: 11rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.boxx {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30rem;
+    padding-left: 7.5rem;
+}
+
+.footer3 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    width: 21rem;
+    padding: 1rem 0rem 1rem;
+}
+
+.beside11 {
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.beside22 {
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.footer5 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30rem;
+    padding-left: 21rem;
+}
+
+.footer8 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    padding-bottom: 1rem;
+}
+
+.footer9 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    width: 23rem;
+    padding-bottom: 2.5rem;
+}
+
+.button111 {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.3125rem;
+    background: #FF52C1;
+    border: 1px solid #FF52C1;
+}
+
+.input-container {
+    border-radius: 0.375rem;
+    background: #FFF;
+    width: 20rem;
+    height: 3rem;
+    position: relative;
+}
+
+.footer10 {
+    display: flex;
+}
+
+.button123 {
+    padding-left: 2.5rem;
+}
+
+.photos11 {
+    padding-left: 1.5rem;
+}
+
+.beside222 {
+    display: flex;
+    padding-top: 50rem;
+    padding-left: 7.5rem;
+    position: absolute;
+}
+
+.warning-message {
+    color: red;
+    font-size: 12px;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#email {
+    border-radius: 0.375rem;
+    background: #FFF;
+    width: 20rem;
+    height: 3rem;
+    position: relative;
+}
+
+.input-container:hover .warning-message {
+    visibility: visible;
+}
+
+.button1:hover {
+    border-radius: 1.25rem;
+    border: 1px solid #FF8ED7;
+    background: #FFF;
+    box-shadow: 0px 0px 9px 0px rgba(255, 82, 193, 0.22);
+    width: 8.5rem;
+    height: 2.5rem;
+    color: #FF8ED7;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.button23:hover {
+    background-color: #FF8ED7;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    border: #FF8ED7;
+}
+
+.button2:hover {
+    background-color: #FF8ED7;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    border: #FF8ED7;
+}
+
+.button111:hover {
+    background-color: #FF8ED7;
+    color: #FFF;
+    border: #FF8ED7;
+}
+
+
+@media (max-width:600px) {
+
+    .logo22 {
+        width: 6rem;
+        height: 1rem;
+    }
+
+    .container1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .button1 {
+        width: 5rem;
+        height: 1.47056rem;
+        border-radius: 0.73531rem;
+        border: 0.588px solid #FF52C1;
+        color: #FF52C1;
+        font-family: "Open Sans";
+        font-size: 0.58825rem;
+        font-weight: 400;
+        pointer-events: none;
+    }
+
+    .container2 {
+        width: 17rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .title2 {
+        width: 17.5rem;
+        color: #00252E;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.25rem;
+    }
+
+    .title3 {
+        color: #00252E;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        width: 19rem;
+    }
+
+    .button23 {
+        width: 12.5rem;
+        height: 2.5rem;
+        fill: #FF52C1;
+        filter: drop-shadow(0px 3px 7px rgba(0, 37, 46, 0.22));
+        pointer-events: none;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.125rem;
+    }
+
+    .group1 {
+        width: 17.48031rem;
+        height: 10.88544rem;
+        border-radius: 0.36419rem;
+        background: #FFF;
+        box-shadow: 0px 0px 3px 0px rgba(0, 37, 46, 0.18);
+
+    }
+
+    .group {
+        display: flex;
+        align-items: center;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .group2 {
+        width: 2.22225rem;
+        height: 2.2285rem;
+    }
+
+    .k {
+        color: #00252E;
+        font-family: "Open Sans";
+        font-size: 3.8095rem;
+        font-weight: 700;
+        line-height: 5.71431rem;
+    }
+
+    .txt5 {
+        color: #808E9A;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 0.95238rem;
+        font-weight: 400;
+        line-height: 1.42856rem;
+        width: 9.6875rem;
+    }
+
+    .container3 {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .txt6 {
+        color: #00252E;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.875rem;
+        position: absolute;
+        z-index: 3;
+        padding-top: 36rem;
+        width: 30rem;
+        padding-left: 20rem;
+    }
+
+    .txt7 {
+        color: #00252E;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        position: absolute;
+        z-index: 4;
+        padding-top: 39rem;
+        padding-left: 10rem;
+        width: 40rem;
+    }
+
+    .flexbox {
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .grow1 {
+        padding-left: 12rem;
+        width: 40rem;
+        height: auto;
+        position: absolute;
+        padding-top: 10rem;
+    }
+
+    .backpic {
+        width: 150vw;
+        height: 120vh;
+    }
+}
